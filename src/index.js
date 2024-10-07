@@ -8,11 +8,14 @@ const rootElement = document.getElementById("root");
 
 ReactDOM.createRoot(rootElement).render(
   <>
-    <DivBestialAhorro />
-    <DivBestialAhorro />
-    <UserGreeting />
-    <Product />
-    <NavBar />
+    <DivBestialAhorro nombre="Juan" banco="Banrural"/>
+    <DivBestialAhorro nombre="Maria" banco="G&T"/>
+    <DivBestialAhorro nombre="Sofia"banco="Bantrab"/>
+    <DivBestialAhorro nombre="CArmela" banco="CHN"/>
+    <DivBestialAhorro nombre="Klave" banco="Internacional"/>
+    <UserGreeting titulo="Carlos" edad={78}/>
+    
+    
 
   </>
 );

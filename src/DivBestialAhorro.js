@@ -1,7 +1,7 @@
-/*
-export function DivBestialAhorro() {
-    const banco = "BancoGT";
-    const persona = "Juan";
+
+export function DivBestialAhorro({banco, nombre}) {
+    //console.log(banco);
+    
     const condition = 5;
     if (condition > 10) {
       return (
@@ -13,17 +13,17 @@ export function DivBestialAhorro() {
     } else {
       return (
         <>
-          <h1>Tarjeta de crédito {persona} 🤣</h1>
+          <h1>Tarjeta de crédito {nombre} 🤣</h1>
           <p>¡Paga en grande!</p>
         </>
       );
     }
-  }*/
-
+  }
+/*
 export function DivBestialAhorro() {
     return <h1>Bestial Ahorro</h1>;
-} 
+} */
 
-export function UserGreeting() {
-    return <h1>Welcome back!</h1>;
+export function UserGreeting({titulo, edad}) {
+    return <h1>Welcome back! {titulo}, tu edad es: {edad}</h1>;
   }
